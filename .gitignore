@@ -1,0 +1,27 @@
+# ─── Python ───────────────────────────────────────────────────────────
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ─── Django ───────────────────────────────────────────────────────────
+back/.env
+back/db.sqlite3
+back/staticfiles/
+back/media/
+back/logs/
+
+# ─── Next.js ──────────────────────────────────────────────────────────
+front/node_modules/
+front/.next/
+front/out/
+front/.env.local
+front/.turbo/
+
+# ─── Editors / OS ─────────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
